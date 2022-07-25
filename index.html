@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/IndexStyle.css">
+    <link rel="stylesheet" href="./CSS/AboutStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Homework01</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h5>ALLAN JOHNSON</h5>
+            <h6>Personal Life Coach</h6>
+
+        </div>
+        <nav>
+            <a href="#about">
+                <h6>About</h6>
+            </a>
+            <a href="#service">
+                <h6>Services</h6>
+            </a>
+            <a href="./Plans.html">
+                <h6>Plans</h6>
+            </a>
+            <a href="./Blog.html">
+                <h6>Blog</h6>
+            </a>
+            <a href="./Guides.html">
+                <h6>Guides</h6>
+            </a>
+            <a href="#contact">
+                <h6>Contact</h6>
+            </a>
+            <a href="./User.html">
+                <div class="login">
+                    <img src="../Asset/user-circle.svg">
+                    <h6>Log In</h6>
+                </div>
+            </a>
+        </nav>
+    </header>
+    <div class="upper_bg">
+
+        <main>
+            <p>AMBITION IS THE FIRST STEP TOWARDS</p>
+            <h1> SUCCESS </h1>
+            <p>Now Available for Online Coaching</p>
+            <input class="button" id="btn_book" type="button" value="BOOK NOW">
+            <script>
+                let button = document.getElementById("btn_book")
+                button.addEventListener('click', () => alert('No more knowklage'))
+            </script>
+
+        </main>
+
+
+    </div>
+    <div class="about" id="about">
+        <div class="descriptions">
+
+            <h1>
+                <hr class="line"><br>ABOUT <br> ME
+            </h1>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It&lsquo;s easy. Just click “Edit Text” or
+                double
+                click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere
+                you like on your page.
+            </p>
+            <p>
+                This is a great space to write long text about your company and your services. You can use this space to
+                go into a little more detail about your company. Talk about your team and what services you provide.
+            </p>
+
+            <button class="button" id="Read More" type="button">Read More</button>
+
+        </div>
+        <div class="picture">
+            <!-- <img src="https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_941,h_895,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg"
+                alt="about me"> -->
+        </div>
+    </div>
+    <div class="service" id="service">
+        <h1 class="head">
+            <hr class="line"><br> I Can<br>Help You
+        </h1>
+        <div class="service_block">
+            <div class="block s1">
+                <h2>Online<br> Coaching</h2>
+                <p>Use this area to describe one of your services.</p>
+                <hr>
+                <p>1 hr<br>$70</p>
+                <input class="button" id="btn_book1" type="button" value="BOOK IT">
+                <script>
+                    let button1 = document.getElementById("btn_book1")
+                    button1.addEventListener('click', () => alert('No more knowklage'))
+                </script>
+            </div>
+            <div class="block s2">
+                <h2>Couple's <br>Guidance</h2>
+                <p>Use this area to describe one of your services.</p>
+                <hr>
+                <p>1 hr 30 min<br>$70</p>
+                <input class="button" id="btn_book2" type="button" value="BOOK IT">
+                <script>
+                    let button2 = document.getElementById("btn_book2")
+                    button2.addEventListener('click', () => alert('No more knowklage'))
+                </script>
+            </div>
+            <div class="block s3">
+                <h2>Self-<br>Improvement<br> Workshop</h2>
+                <p>Use this area to describe one of your services.</p>
+                <hr>
+                <p>Mon, Tue, Wed, Thu, Fri<br>1hr<br>$90</p>
+                <button class="button" id="btn_book3" type="button">BOOK IT</button>
+                <script>
+                    let button3 = document.getElementById("btn_book3")
+                    button3.addEventListener('click', () => alert('No more knowklage'))
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="L_contact">
+            <h1>
+                <hr class="line"><br>CONTACT
+            </h1>
+            <p>500 Terry Francois Street
+                <br>San Francisco, CA 94158
+            </p>
+            <p>Tel: 123-456-7890
+                <br>Fax: 123-456-7890
+            </p>
+            <p>info@mysite.com</p>
+            <div class="icons_container">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <p>© 2023 by Personal Life Coach.<br> Proudly created with Wix.com</p>
+
+        </div>
+        <div class="R_contact">
+            <form action="">
+                <label for="fname">Enter Your Name :</label><br>
+                <input class="text_box" type="text" id="fname" name="fname" value=""placeholder="first name"><br>
+                <label for="email">Enter Your Email:</label><br>
+                <input class="text_box" type="text" id="email" name="email" value=""placeholder="e-mail"><br>
+                <label for="subject">Enter Your Subject</label><br>
+                <input class="text_box" type="text" id="subject" name="subject" value=""><br>
+                <label for="message">Message</label><br>
+                <input class="text_box" type="text" id="message" name="message" value="" style="height: 100px;" ><br><br>
+                <input class="button" type="submit" value="Submit" ">
+
+
+
+            </form>
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

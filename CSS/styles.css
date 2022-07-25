@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Lulo;
+    src: url(../Asset/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../Asset/Avenir\ LT\ 35\ Light.ttf);
+}
+
+.upper_bg {
+    background-image: url("https://static.wixstatic.com/media/11062b_9de2dbff3dda403b944bb98c41cb5764f000.jpg/v1/fill/w_980,h_912,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/11062b_9de2dbff3dda403b944bb98c41cb5764f000.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 16vh;
+}
+
+.line {
+    margin: 20px 0px;
+    width: 100px;
+    background-color: black;
+    padding: 2px;
+    display: inline-block;
+}
+
+/* ====================Header style=========================== */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    margin-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    align-items: center;
+}
+
+nav img {
+    width: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a h6 {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+.logo {
+    text-align: center;
+
+}
+
+.logo h5 {
+    margin-top: 15px;
+    font-family: Lulo;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.logo h6 {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/* ====================Hearder style=========================== */
+main {
+    text-align: center;
+}
+
+
+
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login h6 {
+    padding-left: 10px;
+
+}
+
+/* ====================Main style=========================== */
+main {
+
+    padding-top: 20px;
+    height: 100vh;
+
+}
+
+main p {
+    font-family: Avenir;
+    padding: 1vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+main h1 {
+    font-family: Lulo;
+    font-size: 110px;
+}
+
+main .button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* ====================About style=========================== */
+.about {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_941,h_895,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg");
+    background-position: right;
+    background-size: 50vw;
+    background-repeat: no-repeat;
+
+
+}
+
+.about .descriptions {
+    display: inline-block;
+    width: 50vw;
+    background-color: white;
+    text-align: left;
+
+}
+
+.about .descriptions h1 {
+    font-family: Lulo;
+    line-height: 35px;
+    margin: 30px 0px;
+    margin-left: 10vw;
+}
+
+.about .descriptions p {
+    font-family: Avenir;
+    margin: 20px 0px;
+    margin-left: 10vw;
+}
+
+.about .button {
+    margin-left: 10vw;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+
+/* ====================Service style=========================== */
+.service {
+    position: relative;
+    background-image: url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1899,h_963,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    height: 100vh;
+    padding-top: 2vh;
+
+}
+
+.service p {
+    font-family: Avenir;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.service h2 {
+    font-family: Lulo;
+    font-size: 16px;
+    margin: auto;
+    padding: 24px 0px;
+}
+
+.service h1 {
+    display: block;
+    font-family: Lulo;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 30px;
+    margin-left: 10vw;
+}
+
+.service .service_block {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.service_block hr {
+    margin: 12px 24px;
+    height: 3px;
+    background-color: black;
+}
+
+.service .block {
+    position: relative;
+    display: inline-block;
+    border: 5px solid black;
+    width: 250px;
+    height: 350px;
+    margin: 12px;
+    text-align: center;
+}
+
+.service .button {
+    position: absolute;
+    left: 35%;
+    bottom: 24px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ====================Contact style=========================== */
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #57BBBF;
+    
+}
+
+.contact .L_contact {
+    display: flex;
+    width: 40%;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding-left: 20vw;
+    height: 100vh;
+    padding-top: 3%;
+
+}
+.contact .L_contact .line{
+    justify-self:flex-start;
+}
+.contact .L_contact p{
+    margin: 20px 0px;
+}
+.contact .R_contact {
+    height: 100vh;
+    width: 50vw;
+    padding-top: 8%;
+    /* flex-grow: 1; */
+    
+    /* flex-direction: column; */
+}
+.contact .R_contact form {
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+
+
+}
+.contact .R_contact input{
+    margin: 10px 0px;
+    width: 60%;
+    background-color: #57BBBF;
+    border: 1px solid black;
+    height: 30px;
+    flex-grow: 1;
+}
+.R_contact .text_box{
+    border: 2px solid black !important;
+}
+.R_contact .text_box:hover{
+    outline: 2px solid black;
+}
+.R_contact  .button{
+    position: relative;
+    /* left: 50%; */
+    width: 15% !important;
+    background-color: black !important;
+    color: white;
+}
